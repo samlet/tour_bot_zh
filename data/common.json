@@ -1,0 +1,219 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "你好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "今天天气不错",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "很高兴认识你",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "大家好",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "谢谢",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "感谢",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "谢谢你",
+        "intent": "thankyou",
+        "entities": []
+      },
+      {
+        "text": "再见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "再会",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "明天见",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "是的",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "正确",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "对",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "没错",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "不对",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "错",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "错误",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "不行",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "我拒绝",
+        "intent": "deny",
+        "entities": []
+      },
+      {
+        "text": "我很好",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "天气不错",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "心情不错",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "心情很好",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "一切顺利",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "很好",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "好",
+        "intent": "mood_great",
+        "entities": []
+      },
+      {
+        "text": "想哭",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "难受",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "蓝瘦香菇",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "郁闷",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "很不好",
+        "intent": "mood_unhappy",
+        "entities": []
+      },
+      {
+        "text": "你是机器人吗",
+        "intent": "bot_challenge",
+        "entities": []
+      },
+      {
+        "text": "你是傻子吗",
+        "intent": "bot_challenge",
+        "entities": []
+      },
+      {
+        "text": "你是人类吗",
+        "intent": "bot_challenge",
+        "entities": []
+      },
+      {
+        "text": "我想找音乐会",
+        "intent": "search_concerts",
+        "entities": [
+          {
+            "start": 3,
+            "end": 6,
+            "value": "音乐会",
+            "entity": "place"
+          }
+        ]
+      },
+      {
+        "text": "演唱会",
+        "intent": "search_concerts",
+        "entities": []
+      },
+      {
+        "text": "场地在哪儿",
+        "intent": "search_venues",
+        "entities": []
+      },
+      {
+        "text": "场馆在哪儿",
+        "intent": "search_venues",
+        "entities": []
+      },
+      {
+        "text": "评价如何",
+        "intent": "compare_reviews",
+        "entities": []
+      },
+      {
+        "text": "哪个好",
+        "intent": "compare_reviews",
+        "entities": []
+      },
+      {
+        "text": "我应该选择哪个",
+        "intent": "compare_reviews",
+        "entities": []
+      }
+    ],
+    "entity_synonyms": []
+  }
+}
