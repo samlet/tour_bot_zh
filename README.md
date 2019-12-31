@@ -1,4 +1,4 @@
 # a tour bot
 
-Chinese and English speaking robot.
+Chinese and English speaking bot.
 
