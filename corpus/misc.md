@@ -14,7 +14,7 @@
 ## medical_department
 父母都有[disease:o](高血压)，我应该推荐他们去哪家医院好呢
 我生病了，不知道去哪里看病
-头上烫烫的，感觉[disease:o](发烧)了，该去看哪个诊所哪个科室好呢
+头上烫烫的，感觉[disease:o](发烧)了，该去看哪个[place:clinic](诊所)哪个[place:department](科室)好呢
 
 ## education_experience
 比尔盖茨1979年秋天从大学肆业

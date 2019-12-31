@@ -50,7 +50,7 @@
 你是人类吗
 
 ## search_concerts
-我想找[place:o](音乐会)
+我想找[place:concert](音乐会)
 演唱会
 
 ## search_venues

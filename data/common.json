@@ -178,7 +178,7 @@
           {
             "start": 3,
             "end": 6,
-            "value": "音乐会",
+            "value": "concert",
             "entity": "place"
           }
         ]
@@ -214,6 +214,13 @@
         "entities": []
       }
     ],
-    "entity_synonyms": []
+    "entity_synonyms": [
+      {
+        "value": "concert",
+        "synonyms": [
+          "音乐会"
+        ]
+      }
+    ]
   }
 }

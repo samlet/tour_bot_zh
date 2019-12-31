@@ -1,0 +1,39 @@
+#!/bin/bash
+. /pi/bin/inc/wait_funcs.sh
+. /pi/bin/inc/matchers.sh
+. /pi/bin/inc/docker_utils.sh
+
+function start_inventory(){
+	# mysqld: ready for connections.
+	start_docker inventory "$msg_mysql"
+}
+
+honcho="${HOME}/miniconda3/envs/rasa/bin/honcho"
+rasa="${HOME}/miniconda3/envs/rasa/bin/rasa"
+
+RED='\033[0;31m'
+NC='\033[0m' # No Color
+
+# startup 
+if [ $# -lt 1 ]; then	
+	echo "available opts: all, zk, storm, repl, ..."
+else
+	CMD=$1
+	case "$CMD" in
+	"redis")
+		start_docker redis "$msg_redis"
+		;;
+	"services")
+		$honcho start -f Procfile
+		;;
+	"parse")
+	    curl -s localhost:5005/model/parse -d '{"text":"头上烫烫的，感觉发烧了，该去哪个诊所哪个科室呢"}' | json
+	    curl -s localhost:5005/model/parse -d '{"text":"7月10日晚上7点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警"}' | json
+	    ;;
+	*)
+		# default proc
+		handle_cmd ${@:1}
+		;;
+	esac
+fi
+

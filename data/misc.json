@@ -109,6 +109,18 @@
             "end": 10,
             "value": "发烧",
             "entity": "disease"
+          },
+          {
+            "start": 17,
+            "end": 19,
+            "value": "clinic",
+            "entity": "place"
+          },
+          {
+            "start": 21,
+            "end": 23,
+            "value": "department",
+            "entity": "place"
           }
         ]
       },
@@ -166,6 +178,18 @@
         "synonyms": [
           "感冒",
           "打喷嚏"
+        ]
+      },
+      {
+        "value": "clinic",
+        "synonyms": [
+          "诊所"
+        ]
+      },
+      {
+        "value": "department",
+        "synonyms": [
+          "科室"
         ]
       }
     ]
