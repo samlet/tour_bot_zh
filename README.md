@@ -5,8 +5,8 @@ Chinese and English speaking bot.
 ## start
 ```bash
 $ pip install rasa
-$ pip install saai
-# or: pip install -U --index-url https://pypi.org/simple/ saai
+$ pip install sagas saai
+# or: pip install -U --index-url https://pypi.org/simple/ sagas saai
 $ saai version # check the latest version
 
 $ saai train
