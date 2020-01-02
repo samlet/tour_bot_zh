@@ -29,3 +29,14 @@ Your input ->  是的
 Your input ->  再见                                                                                          
 ```
 
+## nlu
+```bash
+$ ./startup.run services
+# saai
+$ start sl sl_bot.py 
+#> 感觉发烧了，该去哪个诊所哪个科室呢
+#> 7月10日晚上7点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警
+```
+
+![Nlu Screenshot](https://raw.githubusercontent.com/samlet/tour_bot_zh/master/screenshots/nlu_sample_1.png "Nlu Screenshot")
+![Nlu Screenshot](https://raw.githubusercontent.com/samlet/tour_bot_zh/master/screenshots/nlu_sample_2.png "Nlu Screenshot")
