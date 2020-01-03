@@ -158,6 +158,11 @@
         "text": "7月10日晚上7点左右，六安市公安局裕安分局平桥派出所接到辖区居民戴某报警",
         "intent": "about_date",
         "entities": []
+      },
+      {
+        "text": "明天是九月九日",
+        "intent": "about_date",
+        "entities": []
       }
     ],
     "entity_synonyms": [

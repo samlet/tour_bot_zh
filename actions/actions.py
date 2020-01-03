@@ -1,12 +1,3 @@
-# This files contains your custom actions which can be used to run
-# custom Python code.
-#
-# See this guide on how to implement these action:
-# https://rasa.com/docs/rasa/core/actions/#custom-actions/
-
-
-# This is a simple example for a custom action which utters "Hello World!"
-
 from typing import Any, Text, Dict, List
 
 from rasa_sdk import Action, Tracker
@@ -20,7 +11,9 @@ class ActionHelloWorld(Action):
     def run(self, dispatcher: CollectingDispatcher,
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        from pprint import pprint
+        pprint(tracker.latest_message)
 
-        dispatcher.utter_message(text="Hello World!")
+        dispatcher.utter_message(text="朕知道了!")
 
         return []
