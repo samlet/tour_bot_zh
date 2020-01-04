@@ -40,3 +40,10 @@ $ start sl sl_bot.py
 
 ![Nlu Screenshot](https://raw.githubusercontent.com/samlet/tour_bot_zh/master/screenshots/nlu_sample_1.png "Nlu Screenshot")
 ![Nlu Screenshot](https://raw.githubusercontent.com/samlet/tour_bot_zh/master/screenshots/nlu_sample_2.png "Nlu Screenshot")
+
+## test cases
+```
+# preqs: duckling
+> 明天是九月九日  (将会在actions控制台打印出日期实体解析的additional_info)
+```
+
