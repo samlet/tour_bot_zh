@@ -1,0 +1,9 @@
+version: '3.0'
+
+services:
+  duckling:
+    image: samlet/duckling:2019-12-22
+    # networks: ['rasa-network']
+    ports:
+    - "8000:8000"
+

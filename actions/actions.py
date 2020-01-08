@@ -17,3 +17,5 @@ class ActionHelloWorld(Action):
         dispatcher.utter_message(text="朕知道了!")
 
         return []
+
+
